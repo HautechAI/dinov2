@@ -4,5 +4,6 @@ omegaconf
 torchmetrics
 fvcore
 iopath
-xformers==0.0.28.post2
+xformers==0.0.28.post2; sys_platform == 'linux'
+xformers==0.0.28.post2; sys_platform == 'win64'
 submitit
